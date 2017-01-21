@@ -4,7 +4,7 @@ package Sah::Schema::email;
 # VERSION
 
 # we deliberately are very loose with the regex here, to be very flexible
-our $schema => ["str", {
+our $schema = ["str", {
     summary => 'Email address',
     match => '@',
 }, {}];
